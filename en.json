@@ -17,7 +17,8 @@
       "permissionReply": "Permission Reply",
       "prefix": "Prefix",
       "confirmation": "Confirmation",
-      "twoFactor": "Two Factor"
+      "twoFactor": "Two Factor",
+      "deprecated": "This command has been deprecated in favor of the new settings command."
     },
     "invalidSubCommand": "I did not recognize the subcommand you gave me."
   },
