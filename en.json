@@ -1,1 +1,16 @@
-{}
+{
+  "commands": {
+    "settings": {
+      "description": "Here are the current settings of the guild:",
+      "invalidArgumentLength": "You supplied an invalid amount of arguments.",
+      "invalidChannel": "You supplied an invalid channel. Make sure it exists and is part of this server.",
+      "invalidRole": "You supplied an invalid role. Make sure it exists and is part of this server.",
+      "invalidBoolean": "You supplied an invalid boolean.",
+      "invalidLanguage": "You supplied an invalid language code. Please use one from the following list:\n\n",
+      "updated": "I updated the setting **`${name}`** with the value **`${value}`**.",
+      "notImplemented": "This setting is currently not available.",
+      "proOnly": "This setting is part of Emberspace Pro and thus is not available to this server."
+    },
+    "invalidSubCommand": "I did not recognize the subcommand you gave me."
+  }
+}
