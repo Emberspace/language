@@ -1,13 +1,15 @@
 {
   "commands": {
     "settings": {
+      "description": "",
+      "usage": "",
       "title": "Settings",
-      "description": "Here are the current settings of the guild:",
+      "content": "Here are the current settings of the guild:",
       "invalidArgumentLength": "You supplied an invalid amount of arguments.",
       "invalidChannel": "You supplied an invalid channel. Make sure it exists and is part of this server.",
       "invalidRole": "You supplied an invalid role. Make sure it exists and is part of this server.",
       "invalidBoolean": "You supplied an invalid boolean.",
-      "invalidLanguage": "You supplied an invalid language code. Please use one from the following list:\n\n",
+      "invalidLanguage": "You supplied an invalid language code. Please use one from the following list:",
       "updated": "I updated the setting **`${name}`** with the value **`${value}`**.",
       "notImplemented": "This setting is currently not available.",
       "proOnly": "This setting is part of Emberspace Pro and thus is not available to this server.",
@@ -19,6 +21,39 @@
       "confirmation": "Confirmation",
       "twoFactor": "Two Factor",
       "deprecated": "This command has been deprecated in favor of the new settings command."
+    },
+    "confirm": {
+      "description": "",
+      "usage": "",
+      "noPendingAction": "You don't have a pending action that requires confirmation."
+    },
+    "help": {
+      "description": "",
+      "usage": "",
+      "title": "Help",
+      "thankYou": "Thanks for using Emberspace",
+      "content": "To view a list of commands, please use the help command on one of the categories listed below.",
+      "support": "f you need support for the bot, please use the support command.",
+      "configurationContent": "Commands that control the bots behavior",
+      "moderationContent": "Commands that allow server moderation",
+      "utilityContent": "Commands that serve as utility",
+      "configuration": {
+        "title": "Help - Configuration",
+        "content": ""
+      },
+      "moderation": {
+        "title": "Help - Moderation",
+        "content": ""
+      },
+      "utility": {
+        "title": "Help - Utility",
+        "content": ""
+      }
+    },
+    "invite": {
+      "description": "",
+      "usage": "",
+      "content": "You can invite Emberspace to your server with the following link:\n${invite}"
     },
     "invalidSubCommand": "I did not recognize the subcommand you gave me."
   },
