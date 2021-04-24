@@ -56,9 +56,8 @@
       "content": "You can invite Emberspace to your server with the following link:\n${invite}"
     },
     "invalidSubCommand": "I did not recognize the subcommand you gave me.",
-    "ban": {
-      "userNotFound": "I could not find that user.",
-      "userAlreadyBanned": "**`${user}`** is already banned from this server."
+    "mute": {
+      "missingRole": "This server has no muted role set yet."
     }
   },
   "booleans": {
@@ -73,11 +72,18 @@
     "executedBy": "Executed by ${moderator}",
     "noReason": "No reason has been given by the moderator",
     "timeNotInFuture": "The time you gave must be at least 30 seconds into the future.",
-    "info": "You are about to **${method}** **`${user}`**.",
-    "infoTimed": "You are about to **${method}** **`${user}`**. They will be ${revokeMethod} **`${when}`**.",
-    "infoGive": "You are about to give **`${user}`** a **${method}**.",
+    "info": "You are about to ${method} **`${user}`**.",
+    "infoTimed": "You are about to ${method} **`${user}`**. They will be ${revokeMethod} **`${when}`**.",
+    "infoGive": "You are about to give **`${user}`** a ${method}.",
     "infoRevoke": "You are about to revoke the case **`${id}`**.",
     "requireConfirmation": "Because confirmations are enabled, you need to use the `confirm` command to execute this action. You have **`${time}`** seconds to do this."
   },
-  "common": {}
+  "common": {
+    "userNotFound": "I could not find that user.",
+    "userAlreadyBanned": "**`${user}`** is already banned from this server.",
+    "userAlreadyMuted": "**`${user}`** is already muted in this server.",
+    "userNotInGuild": "**`${user}`** is not in this server.",
+    "userNotBanned": "**`${user}`** is not banned from this server.",
+    "userNotMuted": "**`${user}`** is not muted in this server."
+  }
 }
