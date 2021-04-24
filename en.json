@@ -85,5 +85,46 @@
     "userNotInGuild": "**`${user}`** is not in this server.",
     "userNotBanned": "**`${user}`** is not banned from this server.",
     "userNotMuted": "**`${user}`** is not muted in this server."
+  },
+  "logs": {
+    "modLog": {
+      "genericBeen": "**`${user}`** (`${userId}`) has been ${action}.",
+      "genericReceived": "**`${user}`** (`${userId}`) has received a ${action}.",
+      "banTitle": "User Banned",
+      "tempBanTitle": "User Temporarily Banned",
+      "unbanTitle": "User Unbanned",
+      "kickTitle": "User Kicked",
+      "strikeTitle": "User Striked",
+      "muteTitle": "User Muted",
+      "tempMuteTitle": "User Temporarily Muted",
+      "unmuteTitle": "User Unmuted",
+      "noteTitle": "User Received a Notice",
+      "staffNoteTitle": "User Received a Staff Note"
+    },
+    "moderated": {
+      "genericBeen": "[**`${serverName}`**] You have been ${action}.",
+      "genericReceived": "[**`${serverName}`**] You received a ${action}.",
+      "banTitle": "You got banned",
+      "tempBanTitle": "You got temporarily banned",
+      "unbanTitle": "You got unbanned",
+      "kickTitle": "You got kicked",
+      "strikeTitle": "You got striked",
+      "muteTitle": "You got muted",
+      "tempMuteTitle": "You got temporarily muted",
+      "unmuteTitle": "You got unmuted",
+      "noteTitle": "You have received a notice",
+      "staffNoteTitle": "You have received a staff note"
+    },
+    "field": {
+      "title": {
+        "moderator": "Moderator",
+        "dashboard": "Dashboard Link",
+        "reason": "Reason",
+        "expires": "Expires"
+      },
+      "description": {
+        "dashboard": "View on the Server Dashboard"
+      }
+    }
   }
 }
