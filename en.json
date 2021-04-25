@@ -84,7 +84,8 @@
     "userAlreadyMuted": "**`${user}`** is already muted in this server.",
     "userNotInGuild": "**`${user}`** is not in this server.",
     "userNotBanned": "**`${user}`** is not banned from this server.",
-    "userNotMuted": "**`${user}`** is not muted in this server."
+    "userNotMuted": "**`${user}`** is not muted in this server.",
+    "noPermissions": "You don't have sufficient permissions to use this command.\nExecution requires the permission(s) **${permissions}**."
   },
   "logs": {
     "modLog": {
